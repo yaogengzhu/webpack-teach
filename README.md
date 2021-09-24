@@ -15,9 +15,9 @@
 
 ```bash
 - 新建一个文件夹（webpackDemo）
-mkdir webpackDemo # 新建一个文件夹
+mkdir webpackDemo   # 新建一个文件夹
 cd webpackDemo		# 进入该文件
-npm init -y  			# 快捷初始化一个项目 -- 如果不需要参数y, 按要求输入信息即可
+npm init -y  		# 快捷初始化一个项目 -- 如果不需要参数y, 按要求输入信息即可
 
 ```
 
@@ -33,7 +33,7 @@ npm i webpack
 mkdir src      # webpack 默认打包文件夹 src/index.js
 cd src
 touch index.js # 在src目录下新建一个inddex.js文件
-webpack				 # 如果全局安装过webapck, 执行该命令，会进行打包
+webpack		   # 如果全局安装过webapck, 执行该命令，会进行打包
 ```
 
 按以上步骤，基本完成了一个webpack项目初始化工作。如果遇到执行webpack命令不执行的话，全局安装webpack
@@ -67,7 +67,7 @@ npm run build
 ### 新建webpack的配置文件
 
 ```bash
-cd ..											# 切换到项目根目录
+cd ..					    # 切换到项目根目录
 touch webpack.config.js		# 新建webpack.config.js配置文件夹
 ```
 
@@ -197,19 +197,20 @@ module.exports = {
 
 ```md
 .
-├── README.md						# 说明文档
-├── dist								# 打包后的文件夹
+├── README.md			    # 说明文档
+├── dist					# 打包后的文件夹
 │   ├── 13b52be6.js			# 产物
 │   └── index.html
 ├── package-lock.json
 ├── package.json
-├── src									# src文件夹
+├── src						# src文件夹
 │   ├── index.js
 │   └── index.txt
-├── template.html				# html模版文件
+├── template.html			# html模版文件
 └── webpack.config.js		# webpack.config.js 基本配置文件
 ```
 
+[第一部分仓库地址,点我前往](https://github.com/yaogengzhu/webpack-teach/blob/%E7%AC%AC%E4%B8%80%E9%83%A8%E5%88%86/README.md)
 
 
 
