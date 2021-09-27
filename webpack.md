@@ -380,28 +380,3 @@ plugins: [
 
 具体查看更多插件的用法，可以[点击查看](https://webpack.docschina.org/plugins/)
 
-项目结构
-
-```md
-├── README.md
-├── dist
-│   ├── index.bundle.js
-│   ├── index.html
-│   └── main.bundle.js
-├── package-lock.json
-├── package.json
-├── src
-│   ├── index.css
-│   ├── index.js
-│   ├── index.less
-│   ├── index.txt
-│   ├── main.js
-│   └── other.ts
-├── template.html
-├── tsconfig.json
-├── webpack.config.js
-└── webpack.md
-```
-
-[第二部分仓库地址,点我前往](https://github.com/yaogengzhu/webpack-teach/blob/%E7%AC%AC%E4%BA%8C%E9%83%A8%E5%88%86/README.md)
-
